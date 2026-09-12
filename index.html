@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fileni - Report ESG & Sostenibilità</title>
+  <!-- Collegamento al foglio di stile esterno CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Barra di navigazione -->
+  <nav class="navbar">
+    <!-- Logo cliccabile tornando in cima alla pagina -->
+    <a href="#" class="nav-logo-link">
+      <img src="images/logo.jpg" alt="Logo Fileni" class="nav-logo-img">
+    </a>
+
+    <!-- Link sezioni ESG -->
+    <div class="nav-links">
+      <a href="#storia" class="nav-link-storia">Storia</a>
+      <a href="#environmental" class="nav-link-env">Environmental</a>
+      <a href="#social" class="nav-link-soc">Social</a>
+      <a href="#governance" class="nav-link-gov">Governance</a>
+    </div>
+
+    <!-- Pulsante per scaricare il report completo in PDF -->
+    <a href="reports/Report_Fileni_2025.pdf" target="_blank" class="nav-download-btn">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+        <polyline points="7 10 12 15 17 10"/>
+        <line x1="12" y1="15" x2="12" y2="3"/>
+      </svg>
+      Report ESG PDF
+    </a>
+  </nav>
+
+  <!--Sezione Copertina (Hero)-->
+  <header class="hero-impact">
+    <div class="hero-overlay"></div>
+    <img src="images/copertina.jpg" alt="Fileni - Valore e Sostenibilità" class="hero-bg-img">
+    
+    <!--Testo immagine copertina  -->
+    <div class="hero-content">
+      <h1>REPORT & SOSTENIBILITÀ</h1>
+      <p>Coltivare il futuro, rispettare la terra, nutrire le comunità.</p>
+    </div>
+  </header>
+
+  <!--Sezione Storia -->
+  <section id="storia" class="storia-section">
+    <!-- Titolo della sezione -->
+    <div class="pillar-banner banner-dark">
+      <h2>Le Tappe della Sostenibilità e della Crescita</h2>
+      <p>L'evoluzione del Gruppo Fileni dal 1965 ad oggi</p>
+    </div>
+
+    <!--Schede temporali -->
+    <div class="timeline-grid">
+      <!--Scheda 1-->
+      <div class="timeline-card era-amber">
+        <div class="card-header">
+          <span class="era-badge">1965 – 1995</span>
+        </div>
+        <h3>Le Origini & l'Ingresso nella GDO</h3>
+        <ul class="steps-list">
+          <li><strong>1965:</strong> Avvio delle attività a Monsano con il passaggio dall'allevamento in batteria a quello a terra.</li>
+          <li><strong>1967:</strong> Apertura del primo punto vendita e primi preparati per le famiglie.</li>
+          <li><strong>1989:</strong> Transizione alla Grande Distribuzione e apertura dello stabilimento di Cingoli.</li>
+          <li><strong>1995:</strong> Impianto di lavorazione per completare l'intera filiera carni.</li>
+        </ul>
+      </div>
+
+      <!--Scheda 2-->
+      <div class="timeline-card era-green">
+        <div class="card-header">
+          <span class="era-badge">2000 – 2016</span>
+        </div>
+        <h3>La Pioniera del Biologico</h3>
+        <ul class="steps-list">
+          <li><strong>2000:</strong> Certificazione e avvio della filiera biologica.</li>
+          <li><strong>2008:</strong> Nuovo impianto a Castelplanio con sistema di cottura senza friggitrice.</li>
+          <li><strong>2014:</strong> Debutto del brand dedicato Fileni BIO.</li>
+          <li><strong>2016:</strong> Fondazione Marco Fileni e promozione agricoltura biologica rigenerativa (ARCA).</li>
+        </ul>
+      </div>
+
+      <!--Scheda 3-->
+      <div class="timeline-card era-teal">
+        <div class="card-header">
+          <span class="era-badge">2017 – 2021</span>
+        </div>
+        <h3>Certificazioni & Società Benefit</h3>
+        <ul class="steps-list">
+          <li><strong>2017:</strong> Certificazione del sistema ambientale ISO 14001.</li>
+          <li><strong>2018:</strong> Pubblicazione del primo report integrato di sostenibilità.</li>
+          <li><strong>2020:</strong> Prima Dichiarazione Ambientale di Prodotto (EPD).</li>
+          <li><strong>2021:</strong> Trasformazione in Società Benefit, firma Climate Pledge ed adesione a ECC.</li>
+        </ul>
+      </div>
+
+      <!--Scheda 4-->
+      <div class="timeline-card era-emerald">
+        <div class="card-header">
+          <span class="era-badge">2022 – 2025</span>
+        </div>
+        <h3>B Corp & Futuro Rigenerativo</h3>
+        <ul class="steps-list">
+          <li><strong>2022:</strong> Certificazione B Corp e inserimento neutralità climatica nello statuto.</li>
+          <li><strong>2023:</strong> Nomina Chief Sustainability Officer e avvio Decalogo Fileni.</li>
+          <li><strong>2024:</strong> Progetto "Buon miele non mente" e programmi di welfare aziendale.</li>
+          <li><strong>2025:</strong> Adeguamento totale parametri ECC e nuova Brand Identity "Scelta Giusta".</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!--Banner di introduzione alle sezioni ESG -->
+  <section class="intro-actions-banner">
+    <div class="intro-actions-content">
+      <span class="action-tag">IMPATTO CONCRETO</span>
+      <h2>Dalla Visione Storica alle Azioni di Oggi</h2>
+      <p class="intro-description">
+        Il percorso di crescita di Fileni si traduce in un impegno quotidiano strutturato sulle tre dimensioni fondamentali dello sviluppo sostenibile. Nelle sezioni seguenti viene dettagliata l'azione del Gruppo declinata nel pilastro <span class="highlight-env">Environmental</span> per la tutela dell'ambiente e del benessere animale, nel pilastro <span class="highlight-soc">Social</span> per il valore generato verso le persone e le comunità, e nel pilastro <span class="highlight-gov">Governance</span> per la trasparenza e l'etica d'impresa.
+      </p>
+    </div>
+  </section>
+
+  <!--Sezione ESG Enviromental-->
+  <section id="environmental" class="impact-section">
+    <div class="pillar-banner banner-green">
+      <h2>ENVIRONMENTAL</h2>
+      <p>Salvaguardia dell'ambiente, risorse naturali e benessere animale</p>
+    </div>
+
+    <!-- Blocco 1 Environmental: Agricoltura Biologica -->
+    <div class="story-split-block block-forest">
+      <div class="split-media">
+        <img src="images/agricoltura.jpg" alt="Agricoltura Biologica" onerror="this.style.display='none';">
+      </div>
+      <div class="split-content">
+        <div class="badge-container">
+          <img src="images/sdg2.jpg" alt="SDG 2" class="sdg-img">
+          <img src="images/sdg12.jpg" alt="SDG 12" class="sdg-img">
+          <img src="images/sdg15.jpg" alt="SDG 15" class="sdg-img">
+        </div>
+        <h3>Agricoltura Biologica</h3>
+        <p class="subtitle-text">Coltivazione Diretta e Rigenerativa</p>
+        <ul class="steps-list">
+          <li><strong>Rotazione delle Colture:</strong> Preservazione della fertilità naturale dei suoli e prevenzione dell'erosione del terreno.</li>
+          <li><strong>Zero Pesticidi Sintetici:</strong> Tutela attiva della biodiversità locale, degli insetti impollinatori e delle falde acquifere.</li>
+          <li><strong>Concimazione Organica:</strong> Utilizzo esclusivo di fertilizzanti naturali provenienti dalla filiera chiusa.</li>
+          <li><strong>Cereali Italiani:</strong> Oltre il 90% del mangime biologico utilizzato proviene da coltivazioni nazionali certificate.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Blocco 2 Environmental: Benessere Animale -->
+    <div class="story-split-block block-lime reverse">
+      <div class="split-media">
+        <img src="images/benessereanimale.jpg" alt="Benessere Animale" onerror="this.style.display='none';">
+      </div>
+      <div class="split-content">
+        <div class="badge-container">
+          <img src="images/sdg2.jpg" alt="SDG 2" class="sdg-img">
+          <img src="images/sdg12.jpg" alt="SDG 12" class="sdg-img">
+        </div>
+        <h3>Benessere Animale</h3>
+        <p class="subtitle-text">Allevamento all'Aperto e Rispettoso</p>
+        <ul class="steps-list">
+          <li><strong>Pascolo Aperto:</strong> Accesso garantito ad ampi spazi verdi all'aperto arricchiti con vegetazione autoctona.</li>
+          <li><strong>Accrescimento Naturale:</strong> Selezione esclusiva di razze a lento accrescimento per garantire ritmi di vita fisiologici.</li>
+          <li><strong>Senza Somministrazione di Antibiotici:</strong> Approccio preventivo incentrato su nutrizione naturale ed elevati standard igienici.</li>
+          <li><strong>Luce e Aria Naturale:</strong> Strutture progettate con ampie finestrature per rispettare i cicli di luce solare.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Blocco 3 Environmental: Economia Circolare -->
+    <div class="story-split-block block-darkteal">
+      <div class="split-media">
+        <img src="images/economiacircolare.jpg" alt="Economia Circolare" onerror="this.style.display='none';">
+      </div>
+      <div class="split-content">
+        <div class="badge-container">
+          <img src="images/sdg7.jpg" alt="SDG 7" class="sdg-img">
+          <img src="images/sdg12.jpg" alt="SDG 12" class="sdg-img">
+          <img src="images/sdg13.jpg" alt="SDG 13" class="sdg-img">
+        </div>
+        <h3>Economia Circolare & Risorse</h3>
+        <p class="subtitle-text">Gestione Efficiente di Energia e Materiali</p>
+        <ul class="steps-list">
+          <li><strong>Packaging Riciclabile:</strong> Vassoi in cartone certificato FSC e drastica riduzione dell'uso di plastica monouso.</li>
+          <li><strong>Energia Rinnovabile:</strong> Impianti fotovoltaici proprietari ed acquisto di elettrità 100% da fonti verdi.</li>
+          <li><strong>Trattamento Acque:</strong> Depuratori d'avanguardia per il riciclo idrico e il reinserimento pulito nelle falde.</li>
+          <li><strong>Sfrido Zero:</strong> Valorizzazione energetica e agricola dei sottoprodotti di lavorazione della filiera.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!--Sezione ESG Social-->
+  <section id="social" class="impact-section">
+    <!-- Banner del pilastro arancione -->
+    <div class="pillar-banner banner-orange">
+      <h2>SOCIAL</h2>
+      <p>Persone, comunità locale, salute e inclusione sociale</p>
+    </div>
+
+    <!-- Blocco 1 Social: Valore per la Comunità -->
+    <div class="story-split-block block-orange reverse">
+      <div class="split-media">
+        <img src="images/impattosociale.jpg" alt="Valore per la Comunità" onerror="this.style.display='none';">
+      </div>
+      <div class="split-content">
+        <div class="badge-container">
+          <img src="images/sdg2.jpg" alt="SDG 2" class="sdg-img">
+          <img src="images/sdg8.jpg" alt="SDG 8" class="sdg-img">
+        </div>
+        <h3>Valore per la Comunità</h3>
+        <p class="subtitle-text">Impatto Positivo sul Territorio</p>
+        <ul class="steps-list">
+          <li><strong>Occupazione Locale:</strong> Sostegno diretto all'economia e all'occupazione del territorio marchigiano e del Centro Italia.</li>
+          <li><strong>Progetti Scolastici:</strong> Programmi educativi dedicati ai giovani per la corretta alimentazione e sostenibilità.</li>
+          <li><strong>Fondo di Solidarietà:</strong> Finanziamento attivo ad associazioni benefiche, sportive e culturali della zona.</li>
+          <li><strong>Progetto Frolla:</strong> Collaborazione con la cooperativa sociale per l'inclusione lavorativa di ragazzi con disabilità.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Blocco 2 Social: Salute e Sicurezza -->
+    <div class="story-split-block block-warmred">
+      <div class="split-media">
+        <img src="images/risorseumane.jpg" alt="Salute e Sicurezza" onerror="this.style.display='none';">
+      </div>
+      <div class="split-content">
+        <div class="badge-container">
+          <img src="images/sdg4.jpg" alt="SDG 4" class="sdg-img">
+          <img src="images/sdg8.jpg" alt="SDG 8" class="sdg-img">
+        </div>
+        <h3>Salute e Sicurezza sul Lavoro</h3>
+        <p class="subtitle-text">Tutela e Welfare Aziendale</p>
+        <ul class="steps-list">
+          <li><strong>Formazione Continua:</strong> Migliaia di ore di corsi annuali dedicati alla sicurezza e prevenzione rischi.</li>
+          <li><strong>Welfare Aziendale:</strong> Piattaforma di servizi e bonus a supporto della salute e della famiglia dei dipendenti.</li>
+          <li><strong>Standard Elevati:</strong> Ambienti lavorativi moderni, ergonomici, sicuri ed improntati al benessere.</li>
+          <li><strong>Parità di Genere:</strong> Politiche attive per garantire la parità retributiva e opportunità di carriera per tutti.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!--Sezione ESG Governance-->
+  <section id="governance" class="impact-section">
+    <div class="pillar-banner banner-blue">
+      <h2>GOVERNANCE</h2>
+      <p>Etica d'impresa, trasparenza, rete strategica e certificazioni</p>
+    </div>
+
+    <!-- Blocco 1 Governance: Trasparenza & Etica -->
+    <div class="story-split-block block-navy reverse">
+      <div class="split-media">
+        <img src="images/filiera.jpg" alt="Trasparenza Aziendale" onerror="this.style.display='none';">
+      </div>
+      <div class="split-content">
+        <div class="badge-container">
+          <img src="images/sdg12.jpg" alt="SDG 12" class="sdg-img">
+          <img src="images/sdg16.jpg" alt="SDG 16" class="sdg-img">
+        </div>
+        <h3>Trasparenza & Etica d'Impresa</h3>
+        <p class="subtitle-text">Conduzione Responsabile</p>
+        <ul class="steps-list">
+          <li><strong>Bilancio di Sostenibilità:</strong> Rendicontazione annuale trasparente, accessibile e certificata da terzi.</li>
+          <li><strong>Codice Etico Aziendale:</strong> Applicazione rigorosa dei principi di trasparenza, legalità e correttezza.</li>
+          <li><strong>Tracciabilità Integrata:</strong> Monitoraggio digitale e tracciabilità completa dal campo fino alla tavola.</li>
+          <li><strong>Governance ESG:</strong> Comitato dedicato alle strategie di sostenibilità integrato al consiglio di amministrazione.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Blocco 2 Governance: Partner ed Affiliazioni -->
+    <div class="story-split-block block-plum">
+      <div class="split-media">
+        <img src="images/affiliazioni.jpg" alt="Partner ed Affiliazioni" onerror="this.style.display='none';">
+      </div>
+      <div class="split-content">
+        <div class="badge-container">
+          <img src="images/sdg17.jpg" alt="SDG 17" class="sdg-img">
+        </div>
+        <h3>Partner ed Affiliazioni</h3>
+        <p class="subtitle-text">Sinergie Strategiche, Sportive e Sociali</p>
+        <ul class="steps-list">
+          <li><strong>Partnership Sportive:</strong> Collaborazioni con federazioni per diffondere stili di vita sani ed attivi.</li>
+          <li><strong>Collaborazioni Territoriali:</strong> Sinergie con università, enti locali ed associazioni ambientaliste.</li>
+          <li><strong>Iniziative Sociali:</strong> Coinvolgimento diretto in progetti comunitari e manifestazioni culturali sostenibili.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Blocco 3 Governance: Certificazioni-->
+    <div class="story-split-block block-slate reverse">
+      <div class="split-media">
+        <img src="images/certificazioni.jpg" alt="Certificazioni" onerror="this.style.display='none';">
+      </div>
+      <div class="split-content">
+        <div class="badge-container">
+          <img src="images/sdg8.jpg" alt="SDG 8" class="sdg-img">
+          <img src="images/sdg12.jpg" alt="SDG 12" class="sdg-img">
+          <img src="images/sdg16.jpg" alt="SDG 16" class="sdg-img">
+        </div>
+        <h3>Certificazioni</h3>
+        <p class="subtitle-text">Standard Internazionali di Eccellenza</p>
+        <ul class="steps-list">
+          <li><strong>Certificazione Biologica:</strong> Pieno rispetto dei più rigidi regolamenti dell'Unione Europea.</li>
+          <li><strong>B Corp & Società Benefit:</strong> Riconoscimento ufficiale degli elevati impatti sociali ed ambientali.</li>
+          <li><strong>EPD Ambientale:</strong> Dichiarazioni Ambientali di Prodotto verificate per la misurazione dell'impronta carbonica.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sezione Download Report -->
+  <section class="download-section">
+    <div class="download-container">
+      <h2>Consulta il Report Completo</h2>
+      <p>Scarica la documentazione ufficiale in formato PDF per approfondire tutti gli indici ESG, i dati di impatto ed i traguardi raggiunti dal Gruppo Fileni.</p>
+      <a href="reports/Report_Fileni_2025.pdf" target="_blank" class="download-main-btn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+          <polyline points="7 10 12 15 17 10"/>
+          <line x1="12" y1="15" x2="12" y2="3"/>
+        </svg>
+        Scarica il Report di Sostenibilità (PDF)
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Fileni Alimentare S.p.A. - Report di Sostenibilità ed ESG</p>   <!--&copy=simbolo copyright-->
+  </footer>
+
+</body>
+</html>
